@@ -12,7 +12,7 @@ define(function (require, exports, module) {
     var LanguageManager = brackets.getModule("language/LanguageManager");
     var CodeMirror = brackets.getModule("thirdparty/CodeMirror2/lib/codemirror");
     
-    CodeMirror.defineMode("KISS", function () {
+    CodeMirror.defineMode("KISSCODES", function () {
         
         var ExtensionUtils = brackets.getModule("utils/ExtensionUtils");
         ExtensionUtils.loadStyleSheet(module, "styles/styles.css");
@@ -71,11 +71,11 @@ define(function (require, exports, module) {
         };
     });
     
-    CodeMirror.defineMIME("text/x-KISS", "KISS");
+    CodeMirror.defineMIME("text/x-KISSCODES", "KISSCODES");
     
-    LanguageManager.defineLanguage("KISS", {
-        name: "KISS",
-        mode: "KISS",
+    LanguageManager.defineLanguage("KISSCODES", {
+        name: "KISSCODES",
+        mode: "KISSCODES",
         fileExtensions: ["kss"],
         blockComment: ["(", ")"],
         lineComment: [";"]
