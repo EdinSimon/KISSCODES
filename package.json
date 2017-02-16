@@ -1,0 +1,16 @@
+{
+    "name": "KISS-Codes-highlighter",
+    "title": "Simple KISS Syntax Highlighter",
+    "description": "Adds colors to your KISS programs to make them easier to read.",
+    "version": "1.0.0",
+    "author": "Simon Wall <Simon.Wall@CADWall.co.uk>",
+    "engines": {
+        "brackets": ">=0.24.0"
+    },
+    "keywords" : [
+        "KISS",
+        "syntax",
+        "highlighter",
+        "highlighting"
+    ]
+}

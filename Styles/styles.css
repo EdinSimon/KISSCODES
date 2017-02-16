@@ -1,0 +1,9 @@
+m/* brackets-KISS-syntax-highlighter css */
+
+.cm-program_start { color: turquoise; font-style: oblique; }
+.cm-program_number { color: turquoise; font-style: bold; }
+.cm-block_number { color: grey; }
+.cm-comment_line { color: forestgreen; }
+.cm-dcode { color: royalblue; }
+.cm-acode { color: red; }
+.cm-KISS { color: mediumpurple; }
